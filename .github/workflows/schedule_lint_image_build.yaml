@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/vllm-main-verified.commit'
+      - '.github/workflows/schedule_lint_image_build.yaml'
       - '.github/workflows/dockerfiles/Dockerfile.lint'
       - 'requirements-lint.txt'
       - 'requirements-dev.txt'
